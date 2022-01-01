@@ -1,0 +1,705 @@
+ <!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/> <title>
+		Avance Curricular:
+		Malla	</title>
+<link href="/avance_curricular/favicon.ico" rel="icon" type="image/x-icon"/><link href="/avance_curricular/favicon.ico" rel="shortcut icon" type="image/x-icon"/><link href="/avance_curricular/css/style.css" rel="stylesheet" type="text/css"/><link href="/avance_curricular/css/cake.generic.css" rel="stylesheet" type="text/css"/><link href="/avance_curricular/css/tooltipster.css" rel="stylesheet" type="text/css"/><script src="/avance_curricular/js/jquery.min.js" type="text/javascript"></script><script src="/avance_curricular/js/jquery.tooltipster.min.js" type="text/javascript"></script><script src="/avance_curricular/js/code.js" type="text/javascript"></script></head>
+<body>
+<div id="header">
+<div class="inner">
+<div class="logo">
+<img src="/avance_curricular//img/logo.png"/>
+</div>
+<div class="proyectname">
+<span>Avance Curricular</span>
+</div>
+</div>
+</div>
+<div id="wrapper-content">
+<div id="content">
+<div class="header-inner">
+<div class="header-perfil header-box">
+<h2 class="main-title">Malla Curricular</h2><h3 class="second-title">INGENIERIA EN INFORMATICA</h3>
+</div>
+</div>
+<div class="inner">
+<div class="header-year"><span class="label">Fecha :</span> 19 de Diciembre del 2021</div><div class="info-user">
+<div class="name"><strong>Nombre</strong>: MARCO ANTONIO PEÑA ROMERO</div>
+<div class="rut"><strong>RUT</strong>: 20.203.805-0</div>
+</div><div class="mapping">
+<div class="leyend"><span class="aprobada"></span>Aprobada</div>
+<div class="leyend"><span class="inscrita"></span>Inscrita</div>
+<div class="leyend"><span class="pendiente"></span>Pendiente</div>
+<div class="leyend"><span class="noaprobada"></span>No Aprobada</div>
+<div style="text-align:right;font-size:14px;font-weight:bold;margin-top:5px;clear:both;">
+		*Asignaturas clave resaltadas en negrita
+	</div>
+</div><div class="header-mall">
+<span class="label">Currículo :</span> 1446103| 
+		<span class="label">Modalidad :</span> PRESENCIAL | 
+		<span class="label">Total Créditos :</span> 392
+     </div><div class="malla-general"><div class="malla modulos sem8 cabecera"><div class="box-asign-wrapper">I Semestre </div><div class="box-asign-wrapper">II Semestre </div><div class="box-asign-wrapper">III Semestre </div><div class="box-asign-wrapper">IV Semestre </div><div class="box-asign-wrapper">V Semestre </div><div class="box-asign-wrapper">VI Semestre </div><div class="box-asign-wrapper">VII Semestre </div><div class="box-asign-wrapper">VIII Semestre </div></div><div "="" class="malla modulos sem8"> <div class="box-asign-wrapper aprobada">
+<script>
+  var MAT100 = {"Nombre":["NIVELACION MATEMATICA"],"Cr\u00e9ditos":["12"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="MAT100" opt="11">
+  NIVELACION MATEMATICA
+  <span class="cod">MAT100</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 12</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var FET102 = {"Nombre":["ANTROPOLOGIA"],"Cr\u00e9ditos":["4"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="FET102" opt="11">
+  ANTROPOLOGIA
+  <span class="cod">FET102</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var INU311 = {"Nombre":["INGLES INTERMEDIO I"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="INU311" opt="11">
+  INGLES INTERMEDIO I
+  <span class="cod">INU311</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var INU411 = {"Nombre":["INGLES INTERMEDIO II"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="INU411" opt="11">
+  INGLES INTERMEDIO II
+  <span class="cod">INU411</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada optbox first">
+<script>
+  var OPT = {"Nombre":["OPTATIVOS"],"Tipo de Asignatura":["OPT"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered optbox first" info="OPT" opt="11">
+<div class="titleopt opttitle3">OPTATIVOS</div>
+<span class="cod">OPT</span>
+<div class="info-bottom">
+<span class="esp">OPT</span>
+<span class="credits">CR: 20</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper optbox">
+<script>
+  var OPT = {"Nombre":["OPTATIVOS"],"Tipo de Asignatura":["OPT"]}
+</script>
+<div class="box-asign tooltip clave tooltipstered optbox" info="OPT" opt="11">
+<span class="cod">OPT</span>
+<div class="info-bottom">
+<span class="esp">OPT</span>
+<span class="credits">CR: 20</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper optbox last">
+<script>
+  var OPT = {"Nombre":["OPTATIVOS"],"Tipo de Asignatura":["OPT"]}
+</script>
+<div class="box-asign tooltip clave tooltipstered optbox last" info="OPT" opt="11">
+<span class="cod">OPT</span>
+<div class="info-bottom">
+<span class="esp">OPT</span>
+<span class="credits">CR: 20</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper NULL">
+<script>
+  var PPY4613 = {"Nombre":["PRACTICA PROFESIONAL"],"Sigla":["PPY4613"],"Cr\u00e9ditos":["20"],"Tipo de Asignatura":["MIN"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip NULL clave tooltipstered" info="PPY4613" opt="11">
+  PRACTICA PROFESIONAL
+  <span class="cod">PPY4613</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 20</span>
+</div>
+</div>
+</div></div><div "="" class="malla modulos sem8"> <div class="box-asign-wrapper aprobada">
+<script>
+  var INU111 = {"Nombre":["INGLES BASICO I"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="INU111" opt="11">
+  INGLES BASICO I
+  <span class="cod">INU111</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var INU211 = {"Nombre":["INGLES BASICO II"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="INU211" opt="11">
+  INGLES BASICO II
+  <span class="cod">INU211</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada optbox first">
+<script>
+  var OFC = {"Nombre":["OPTATIVOS DE FORMACION CRISTIANA"],"Tipo de Asignatura":["OFC"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered optbox first" info="OFC" opt="11">
+<div class="titleopt opttitle2">OPTATIVOS DE FORMACION CRISTIANA</div>
+<span class="cod">OFC</span>
+<div class="info-bottom">
+<span class="esp">OFC</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada optbox last">
+<script>
+  var OFC = {"Nombre":["OPTATIVOS DE FORMACION CRISTIANA"],"Tipo de Asignatura":["OFC"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered optbox last" info="OFC" opt="11">
+<span class="cod">OFC</span>
+<div class="info-bottom">
+<span class="esp">OFC</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var INU511 = {"Nombre":["INGLES AVANZADO I"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="INU511" opt="11">
+  INGLES AVANZADO I
+  <span class="cod">INU511</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper inscrita">
+<script>
+  var FET212 = {"Nombre":["ETICA PROFESIONAL"],"Sigla":["FET212"],"Secci\u00f3n":["Sin informaci\u00f3n"],"Cr\u00e9ditos":["4"],"Jornada":["Sin informaci\u00f3n"],"Tipo de Asignatura":["MIN"],"% Asistencia":["Sin informaci\u00f3n"],"Notas Parciales":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip inscrita clave tooltipstered" info="FET212" opt="11">
+  ETICA PROFESIONAL
+  <span class="cod">FET212</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper NULL">
+<script>
+  var GRY7101 = {"Nombre":["GESTION DE RIESGOS"],"Sigla":["GRY7101"],"Cr\u00e9ditos":["10"],"Tipo de Asignatura":["MIN"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip NULL clave tooltipstered" info="GRY7101" opt="11">
+  GESTION DE RIESGOS
+  <span class="cod">GRY7101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper NULL">
+<script>
+  var PTY4613 = {"Nombre":["PORTAFOLIO DE TITULO"],"Sigla":["PTY4613"],"Cr\u00e9ditos":["10"],"Tipo de Asignatura":["MIN"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip NULL clave tooltipstered" info="PTY4613" opt="11">
+  PORTAFOLIO DE TITULO
+  <span class="cod">PTY4613</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div></div><div "="" class="malla modulos sem8"> <div class="box-asign-wrapper aprobada">
+<script>
+  var DRY1101 = {"Nombre":["DISENO Y GESTION DE REQUISITOS"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada esclave clave tooltipstered" info="DRY1101" opt="11">
+  DISENO Y GESTION DE REQUISITOS
+  <span class="cod">DRY1101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var MAT204 = {"Nombre":["MATEMATICA APLICADA"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="MAT204" opt="11">
+  MATEMATICA APLICADA
+  <span class="cod">MAT204</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var FET003 = {"Nombre":["ETICA"],"Cr\u00e9ditos":["4"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="FET003" opt="11">
+  ETICA
+  <span class="cod">FET003</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var DWY4101 = {"Nombre":["DESARROLLO APLICACIONES WEB Y MOBILE"],"Cr\u00e9ditos":["12"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada esclave clave tooltipstered" info="DWY4101" opt="11">
+  DESARROLLO APLICACIONES WEB Y MOBILE
+  <span class="cod">DWY4101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 12</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var PLY4613 = {"Nombre":["PRACTICA LABORAL"],"Cr\u00e9ditos":["10"],"Estado":["Convalidada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="PLY4613" opt="11">
+  PRACTICA LABORAL
+  <span class="cod">PLY4613</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper inscrita">
+<script>
+  var INU611 = {"Nombre":["INGLES AVANZADO II"],"Sigla":["INU611"],"Secci\u00f3n":["Sin informaci\u00f3n"],"Cr\u00e9ditos":["8"],"Jornada":["Sin informaci\u00f3n"],"Tipo de Asignatura":["MIN"],"% Asistencia":["Sin informaci\u00f3n"],"Notas Parciales":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip inscrita clave tooltipstered" info="INU611" opt="11">
+  INGLES AVANZADO II
+  <span class="cod">INU611</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper NULL">
+<script>
+  var MDY7101 = {"Nombre":["MINERIA DE DATOS"],"Sigla":["MDY7101"],"Cr\u00e9ditos":["12"],"Tipo de Asignatura":["MIN"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip NULL esclave clave tooltipstered" info="MDY7101" opt="11">
+  MINERIA DE DATOS
+  <span class="cod">MDY7101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 12</span>
+</div>
+</div>
+</div><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div></div><div "="" class="malla modulos sem8"> <div class="box-asign-wrapper aprobada">
+<script>
+  var MBY1101 = {"Nombre":["MODELAMIENTO DE BASE DE DATOS"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada esclave clave tooltipstered" info="MBY1101" opt="11">
+  MODELAMIENTO DE BASE DE DATOS
+  <span class="cod">MBY1101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var PLC021 = {"Nombre":["HABILIDADES DE COMUNICACION ORAL"],"Cr\u00e9ditos":["4"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="PLC021" opt="11">
+  HABILIDADES DE COMUNICACION ORAL
+  <span class="cod">PLC021</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var PBY3101 = {"Nombre":["PROGRAMACION DE BASE DE DATOS"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada esclave clave tooltipstered" info="PBY3101" opt="11">
+  PROGRAMACION DE BASE DE DATOS
+  <span class="cod">PBY3101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var ASY4101 = {"Nombre":["ADMINISTRACION DE SISTEMAS"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="ASY4101" opt="11">
+  ADMINISTRACION DE SISTEMAS
+  <span class="cod">ASY4101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var BPY5101 = {"Nombre":["PROCESOS DE NEGOCIO (BPM)"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="BPY5101" opt="11">
+  PROCESOS DE NEGOCIO (BPM)
+  <span class="cod">BPY5101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper inscrita">
+<script>
+  var GPY6101 = {"Nombre":["GESTION DE PROYECTOS INFORMATICOS"],"Sigla":["GPY6101"],"Secci\u00f3n":["Sin informaci\u00f3n"],"Cr\u00e9ditos":["12"],"Jornada":["Sin informaci\u00f3n"],"Tipo de Asignatura":["MIN"],"% Asistencia":["Sin informaci\u00f3n"],"Notas Parciales":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip inscrita esclave clave tooltipstered" info="GPY6101" opt="11">
+  GESTION DE PROYECTOS INFORMATICOS
+  <span class="cod">GPY6101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 12</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper NULL">
+<script>
+  var BDY7101 = {"Nombre":["BIG DATA"],"Sigla":["BDY7101"],"Cr\u00e9ditos":["10"],"Tipo de Asignatura":["MIN"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip NULL clave tooltipstered" info="BDY7101" opt="11">
+  BIG DATA
+  <span class="cod">BDY7101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div></div><div "="" class="malla modulos sem8"> <div class="box-asign-wrapper aprobada">
+<script>
+  var PAY1101 = {"Nombre":["PROGRAMACION DE ALGORITMOS"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="PAY1101" opt="11">
+  PROGRAMACION DE ALGORITMOS
+  <span class="cod">PAY1101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var DTY2101 = {"Nombre":["DESIGN THINKING"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="DTY2101" opt="11">
+  DESIGN THINKING
+  <span class="cod">DTY2101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var EST402 = {"Nombre":["ESTADISTICA I"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="EST402" opt="11">
+  ESTADISTICA I
+  <span class="cod">EST402</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var AQY4101 = {"Nombre":["ARQUITECTURA"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="AQY4101" opt="11">
+  ARQUITECTURA
+  <span class="cod">AQY4101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var IPY5101 = {"Nombre":["INTEGRACION DE PLATAFORMAS"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada esclave clave tooltipstered" info="IPY5101" opt="11">
+  INTEGRACION DE PLATAFORMAS
+  <span class="cod">IPY5101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper inscrita">
+<script>
+  var INY6101 = {"Nombre":["INTELIGENCIA DE NEGOCIOS"],"Sigla":["INY6101"],"Secci\u00f3n":["Sin informaci\u00f3n"],"Cr\u00e9ditos":["8"],"Jornada":["Sin informaci\u00f3n"],"Tipo de Asignatura":["MIN"],"% Asistencia":["Sin informaci\u00f3n"],"Notas Parciales":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip inscrita clave tooltipstered" info="INY6101" opt="11">
+  INTELIGENCIA DE NEGOCIOS
+  <span class="cod">INY6101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper NULL">
+<script>
+  var EMP220 = {"Nombre":["PROYECTOS DE INNOVACION"],"Sigla":["EMP220"],"Cr\u00e9ditos":["8"],"Tipo de Asignatura":["MIN"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip NULL clave tooltipstered" info="EMP220" opt="11">
+  PROYECTOS DE INNOVACION
+  <span class="cod">EMP220</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div></div><div "="" class="malla modulos sem8"> <div class="box-asign-wrapper aprobada">
+<script>
+  var PLC011 = {"Nombre":["HABILIDADES DE COMUNICACION ESCRITA"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="PLC011" opt="11">
+  HABILIDADES DE COMUNICACION ESCRITA
+  <span class="cod">PLC011</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var CBY2101 = {"Nombre":["CONSULTAS DE BASES DE DATOS"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada esclave clave tooltipstered" info="CBY2101" opt="11">
+  CONSULTAS DE BASES DE DATOS
+  <span class="cod">CBY2101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var ISY3101 = {"Nombre":["INGENIERIA DE SOFTWARE"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="ISY3101" opt="11">
+  INGENIERIA DE SOFTWARE
+  <span class="cod">ISY3101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var CSY4101 = {"Nombre":["CALIDAD DE SOFTWARE"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="CSY4101" opt="11">
+  CALIDAD DE SOFTWARE
+  <span class="cod">CSY4101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var EPY5101 = {"Nombre":["EVALUACION DE PROYECTOS"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="EPY5101" opt="11">
+  EVALUACION DE PROYECTOS
+  <span class="cod">EPY5101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper inscrita">
+<script>
+  var SSY6102 = {"Nombre":["SEGURIDAD EN SISTEMAS COMPUTACIONALES"],"Sigla":["SSY6102"],"Secci\u00f3n":["Sin informaci\u00f3n"],"Cr\u00e9ditos":["8"],"Jornada":["Sin informaci\u00f3n"],"Tipo de Asignatura":["MIN"],"% Asistencia":["Sin informaci\u00f3n"],"Notas Parciales":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip inscrita clave tooltipstered" info="SSY6102" opt="11">
+  SEGURIDAD EN SISTEMAS COMPUTACIONALES
+  <span class="cod">SSY6102</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper NULL">
+<script>
+  var ESP510 = {"Nombre":["INGLES PARA LAS TECNOLOGIAS"],"Sigla":["ESP510"],"Cr\u00e9ditos":["8"],"Tipo de Asignatura":["MIN"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip NULL clave tooltipstered" info="ESP510" opt="11">
+  INGLES PARA LAS TECNOLOGIAS
+  <span class="cod">ESP510</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div></div><div "="" class="malla modulos sem8"><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var DSY2101 = {"Nombre":["DESARROLLO DE SOFTWARE"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="DSY2101" opt="11">
+  DESARROLLO DE SOFTWARE
+  <span class="cod">DSY2101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var DEY3101 = {"Nombre":["DESARROLLO SOFTWARE ESCRITORIO Y GESTION"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="DEY3101" opt="11">
+  DESARROLLO SOFTWARE ESCRITORIO Y GESTION
+  <span class="cod">DEY3101</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 10</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper aprobada">
+<script>
+  var EMP210 = {"Nombre":["EMPRENDIMIENTO"],"Cr\u00e9ditos":["4"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="EMP210" opt="11">
+  EMPRENDIMIENTO
+  <span class="cod">EMP210</span>
+<div class="info-bottom">
+<span class="esp">MIN</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div><div class="box-asign-wrapper empty">
+<div class="box-asign empty">
+</div>
+</div></div><h4>Optativos de Formacion Cristiana (4/4) </h4><div class="malla modulos sem8"> <div class="box-asign-wrapper aprobada">
+<script>
+  var PFC010 = {"Nombre":["PRINCIPIOS DE LA FE CRISTIANA"],"Cr\u00e9ditos":["4"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["OFC"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="PFC010" opt="11">
+  PRINCIPIOS DE LA FE CRISTIANA
+  <span class="cod">PFC010</span>
+<div class="info-bottom">
+<span class="esp">OFC</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper ANULADO">
+<script>
+  var PFC040 = {"Nombre":["DOCTRINA SOCIAL DE LA IGLESIA"],"Cr\u00e9ditos":["4"],"Estado":["Anulado"],"Cant. Reprobadas":["0"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"],"Tipo de Asignatura":["OFC"]}
+</script>
+<div class="box-asign tooltip ANULADO clave tooltipstered" info="PFC040" opt="11">
+  DOCTRINA SOCIAL DE LA IGLESIA
+  <span class="cod">PFC040</span>
+<div class="info-bottom">
+<span class="esp">OFC</span>
+<span class="credits">CR: 4</span>
+</div>
+</div>
+</div></div><h4>Optativos (8/20) </h4><div class="malla modulos sem8"> <div class="box-asign-wrapper aprobada">
+<script>
+  var GAY0101 = {"Nombre":["GESTION AGIL DE PROYECTOS"],"Cr\u00e9ditos":["8"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["OPT"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip aprobada clave tooltipstered" info="GAY0101" opt="11">
+  GESTION AGIL DE PROYECTOS
+  <span class="cod">GAY0101</span>
+<div class="info-bottom">
+<span class="esp">OPT</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div> <div class="box-asign-wrapper inscrita">
+<script>
+  var GPI0101 = {"Nombre":["GESTION DE PERSONAS"],"Sigla":["GPI0101"],"Secci\u00f3n":["Sin informaci\u00f3n"],"Cr\u00e9ditos":["8"],"Jornada":["Sin informaci\u00f3n"],"Tipo de Asignatura":["OPT"],"% Asistencia":["Sin informaci\u00f3n"],"Notas Parciales":["NULL"],"Requisitos":["NULL"]}
+</script>
+<div class="box-asign tooltip inscrita clave tooltipstered" info="GPI0101" opt="11">
+  GESTION DE PERSONAS
+  <span class="cod">GPI0101</span>
+<div class="info-bottom">
+<span class="esp">OPT</span>
+<span class="credits">CR: 8</span>
+</div>
+</div>
+</div></div></div>
+<div class="bottom-menu">
+<div class="menu-actions">
+<a class="print" href="#"><img src="/avance_curricular/img/print.png"/></a>
+</div>
+<span class="jumpmenu">
+<select id="jump" name="jump">
+<option value="">Ir a página ...</option>
+<option value="plan?codplan=1446103&amp;rut=20203805">Plan</option>
+<option value="malla?codplan=1446103&amp;rut=20203805">Malla Curricular</option>
+<option value="creditos?codplan=1446103&amp;rut=20203805">Avance por Créditos</option>
+<option value="modulos?codplan=1446103&amp;rut=20203805">Avance por Módulos</option>
+<!--  <option value="competencia?codplan=1446103&rut=20203805">Informe por Unidad de Competencia</option> -->
+</select>
+</span>
+<span class="logout"> <a href="session?logout=1">Logout</a>
+</span></div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div class="inner"></div>
+</div>
+</body>
+</html>
+ 
+
