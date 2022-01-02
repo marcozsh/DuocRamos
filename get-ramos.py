@@ -22,7 +22,7 @@ def get_pag(rut):
 
     page = BeautifulSoup(request_page.content, 'html.parser')
 
-    return page, request_page.cookies
+    return page, request_page.cookies # <- retorno de la pag en formato 'html' y además las cookies
 
 def get_carrera(page):
 
@@ -46,7 +46,7 @@ def get_malla(pag, rut):
     cod = re.findall("\d{1,100}", str(cod))[0]
 
     page_malla = requests.get("https://www2.duoc.cl/avance_curricular/malla?codplan={}&rut={}".format(cod, rut)
-                        ,cookies=get_pag(rut)[1])
+                        ,cookies=get_pag(rut)[1]) # <- acá usamos la cookie
 
     page = BeautifulSoup(page_malla.content, 'html.parser')
 
@@ -81,6 +81,28 @@ def get_student_data(pag):
     #End Student Malla
     return student_name, student_rut, student_malla
 
+def ramos_status(data):
+
+    ramo = None
+    status = None
+
+    d_list = []
+    for i in range(len(data)):
+        d_list.append(str(data[i]))
+
+    ramo1 = d_list[4].find('Nombre')
+    ramoEnd = d_list[4].find(',"Sigla"')
+
+    a = d_list[4][ramo1:ramoEnd]
+    # print(d_list[4])
+    # print(ramo, ramoEnd)
+    # print(a)
+
+
+
+    return a
+
+
 if __name__=='__main__':
 
     rut = sys.argv[1]
@@ -91,9 +113,11 @@ if __name__=='__main__':
 
     # print(get_malla(page, rut))
 
-    print(get_student_data(get_malla(page,rut))[2])
+    data = get_student_data(get_malla(page,rut))[2]
 
-    # if carrera == []:
+    print(ramos_status(data))
+
+        # if carrera == []:
         # print("\n [!] Almuno no regular en Duoc UC [!] \n")
     # else:
         # carrera = ' '.join(map(str, carrera))

@@ -11,7 +11,7 @@
 </script>, <script>
   var DGD1112 = {"Nombre":["CONTEXTO CULTURAL DEL DISENO GRAFICO"],"Cr\u00e9ditos":["12"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
-  var MAT1130 = {"Nombre":["HABILIDADES DEL LENGUAJE MATEMATICO"],"Cr\u00e9ditos":["6"],"Estado":["Convalidada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+  var DGD2112 = {"Nombre":["COMUNICACION Y SEMIOTICA"],"Cr\u00e9ditos":["12"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
   var DGD3112 = {"Nombre":["REFERENTES Y TENDENCIAS DEL DISENO GRAFICO"],"Cr\u00e9ditos":["12"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
@@ -19,7 +19,7 @@
 </script>, <script>
   var DGD1132 = {"Nombre":["REPRESENTACION GRAFICA"],"Cr\u00e9ditos":["10"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
-  var DGD2112 = {"Nombre":["COMUNICACION Y SEMIOTICA"],"Cr\u00e9ditos":["12"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+  var DGD2412 = {"Nombre":["PRODUCCION DE PIEZAS GRAFICAS"],"Cr\u00e9ditos":["24"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
   var INU1101 = {"Nombre":["INGLES BASICO I"],"Cr\u00e9ditos":["8"],"Estado":["Convalidada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
@@ -27,7 +27,7 @@
 </script>, <script>
   var DGD1122 = {"Nombre":["ELEMENTOS DEL DISENO GRAFICO"],"Cr\u00e9ditos":["12"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
-  var DGD2412 = {"Nombre":["PRODUCCION DE PIEZAS GRAFICAS"],"Cr\u00e9ditos":["24"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
+  var MAT1130 = {"Nombre":["HABILIDADES DEL LENGUAJE MATEMATICO"],"Cr\u00e9ditos":["6"],"Estado":["Convalidada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
   var FCE1100 = {"Nombre":["FUNDAMENTOS DE ANTROPOLOGIA"],"Cr\u00e9ditos":["4"],"Estado":["Aprobada"],"Nota Final":["NULL"],"Tipo de Asignatura":["MIN"],"A\u00f1o y Semestre":["NULL"],"Requisitos":["NULL"]}
 </script>, <script>
