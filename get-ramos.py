@@ -72,54 +72,63 @@ def get_student_data(pag):
 
     #End Student rut
 
-    # Student Malla
+    # Student Malla base
 
     student_malla = pag.find('div', class_="malla-general")
     student_malla = pag.find('div', class_="malla-general")
     student_malla = pag.findAll('script')
 
-    #End Student Malla
+    #End Student Malla base
     return student_name, student_rut, student_malla
 
 def ramos_status(data):
 
-    ramo = None
-    status = None
+    ramo = ""
+    status = ""
 
     d_list = []
+    ramos = []
     for i in range(len(data)):
         d_list.append(str(data[i]))
 
-    ramo1 = d_list[4].find('Nombre')
-    ramoEnd = d_list[4].find(',"Sigla"')
+    for i in range(len(d_list)):
 
-    a = d_list[4][ramo1:ramoEnd]
-    # print(d_list[4])
-    # print(ramo, ramoEnd)
-    # print(a)
+        ramoStart = d_list[i].find('Nombre')
+        ramoEnd = d_list[i].find(',"Sigla"')
 
+        statusStart = d_list[i].find('Estado')
+        statusEnd = d_list[i].find(',"Nota Final')
 
+        if ramoEnd != -1 and statusEnd != -1:
+            ramo = "{} {}".format(d_list[i][ramoStart:ramoEnd], d_list[i][statusStart:statusEnd])
+            ramos.append("{}".format(ramo))
 
-    return a
+        else:
+            ramoEnd = d_list[i].find(',"Cr')
+            if ramoEnd == -1 or statusEnd == -1:
+                ramoEnd = d_list[i].find(',"Tipo')
+                statusEnd = d_list[i].find(',"Cant. Reprobadas"')
+
+            ramo = "{} {}".format(d_list[i][ramoStart:ramoEnd], d_list[i][statusStart:statusEnd])
+            ramos.append("{}".format(ramo))
+
+    for i in range(0, 3):
+        ramos.pop(i)
+    ramos.pop(0)
+
+    return ramos
 
 
 if __name__=='__main__':
 
     rut = sys.argv[1]
-
     page = get_pag(rut)[0]
-
     carrera = get_carrera(page)
-
-    # print(get_malla(page, rut))
-
     data = get_student_data(get_malla(page,rut))[2]
 
-    print(ramos_status(data))
-
-        # if carrera == []:
-        # print("\n [!] Almuno no regular en Duoc UC [!] \n")
-    # else:
+    if carrera == []:
+        print("\n [!] Almuno no regular en Duoc UC [!] \n")
+    else:
         # carrera = ' '.join(map(str, carrera))
 
         # print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[0])) # Name
@@ -128,7 +137,7 @@ if __name__=='__main__':
 
         # print("\n  [*] {} [*] \n ".format(carrera)) # Carrera
 
-        # print("\n {} \n".format(get_malla(page, rut)))
+        print('\n'.join(map(str, ramos_status(data))))
 
 
 
