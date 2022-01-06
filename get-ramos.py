@@ -12,10 +12,11 @@ if len(sys.argv) != 2:
     sys.exit(1)
 
 
-url_1 = "https://www2.duoc.cl/avance_curricular/plan?rut="
+url_1 = "https://www2.duoc.cl/avance_curricular/plan?rut=" # <- url vulnerable
 
 
-def get_pag(rut):
+def get_pag(rut): # <- obtiene la pag en formato HTML de donde se saca todos los datos
+
     #page = requets.get(url_1 + rut, verify=False) <- descomentar esta línea si da error del certificado
 
     request_page = requests.get(url_1 + rut) # <- comentar esta línea si descomentas la línea de arriba
@@ -24,7 +25,7 @@ def get_pag(rut):
 
     return page, request_page.cookies # <- retorno de la pag en formato 'html' y además las cookies
 
-def get_carrera(page):
+def get_carrera(page): # <- obtiene la carrera que estudia el estudiante
 
     carrera = page.find('div', class_="carrera")
 
@@ -52,7 +53,7 @@ def get_malla(pag, rut):
 
     return page
 
-def get_student_data(pag):
+def get_student_data(pag): # <- obtiene los datos del estudiante
 
     #Student Name
 
@@ -81,15 +82,16 @@ def get_student_data(pag):
     #End Student Malla base
     return student_name, student_rut, student_malla
 
-def ramos_status(data):
+def ramos(data): # <- obtiene lo ramos del estudiante
 
     ramo = ""
     status = ""
-
+    index = 0
     d_list = []
     ramos = []
     for i in range(len(data)):
         d_list.append(str(data[i]))
+
 
     for i in range(len(d_list)):
 
@@ -107,14 +109,32 @@ def ramos_status(data):
             ramoEnd = d_list[i].find(',"Cr')
             if ramoEnd == -1 or statusEnd == -1:
                 ramoEnd = d_list[i].find(',"Tipo')
-                statusEnd = d_list[i].find(',"Cant. Reprobadas"')
+                # statusEnd = d_list[i].find(',"Cant. Reprobadas"')
 
             ramo = "{} {}".format(d_list[i][ramoStart:ramoEnd], d_list[i][statusStart:statusEnd])
             ramos.append("{}".format(ramo))
 
+
     for i in range(0, 3):
         ramos.pop(i)
     ramos.pop(0)
+
+    for i in range(len(ramos)):
+        temp = ramos[i]
+        temp = re.findall("(\[(?:\[??[^\[]*?\]))", temp)
+        temp = ' '.join(map(str, temp))
+        ramos[i] = temp
+
+
+    for i in range(len(ramos)):
+        if 'Anulado' in ramos[i]:
+            index = i
+    ramos.pop(index)
+
+    for i in range(len(ramos)):
+        if "OPTATIVOS" in ramos[i]:
+            index = i
+    ramos.pop(index)
 
     return ramos
 
@@ -125,19 +145,22 @@ if __name__=='__main__':
     page = get_pag(rut)[0]
     carrera = get_carrera(page)
     data = get_student_data(get_malla(page,rut))[2]
+    ramos = ramos(data)
 
-    if carrera == []:
-        print("\n [!] Almuno no regular en Duoc UC [!] \n")
-    else:
+    print('\n'.join(map(str, ramos)))
+
+    # if carrera == []:
+        # print("\n [!] Almuno no regular en Duoc UC [!] \n")
+    # else:
         # carrera = ' '.join(map(str, carrera))
 
         # print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[0])) # Name
 
         # print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[1])) # Rut
 
-        # print("\n  [*] {} [*] \n ".format(carrera)) # Carrera
+        # print("\n [*] {} [*] \n ".format(carrera)) # Carrera
 
-        print('\n'.join(map(str, ramos_status(data))))
+        # print('\n'.join(map(str,ramos))) 
 
 
 
