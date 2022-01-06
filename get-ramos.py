@@ -89,6 +89,7 @@ def ramos(data): # <- obtiene lo ramos del estudiante
     index = 0
     d_list = []
     ramos = []
+    del_ramos = []
     for i in range(len(data)):
         d_list.append(str(data[i]))
 
@@ -115,26 +116,31 @@ def ramos(data): # <- obtiene lo ramos del estudiante
             ramos.append("{}".format(ramo))
 
 
-    for i in range(0, 3):
+    for i in range(0, 3): # <- quita espacios en blanco
         ramos.pop(i)
     ramos.pop(0)
 
     for i in range(len(ramos)):
         temp = ramos[i]
-        temp = re.findall("(\[(?:\[??[^\[]*?\]))", temp)
+        temp = re.findall("(\[(?:\[??[^\[]*?\]))", temp) # <- limpia la cadena de texto 
         temp = ' '.join(map(str, temp))
         ramos[i] = temp
 
 
     for i in range(len(ramos)):
-        if 'Anulado' in ramos[i]:
+        if 'Anulado' in ramos[i]: # <- quita todos los ramos que esten anulados
             index = i
     ramos.pop(index)
 
     for i in range(len(ramos)):
         if "OPTATIVOS" in ramos[i]:
             index = i
-    ramos.pop(index)
+            del_ramos.append(ramos[index])
+
+
+    for i in range(len(del_ramos)): # <- quita los ramos que digan "OPTATIVOS"
+        temp = del_ramos[i]
+        ramos.remove(temp)
 
     return ramos
 
@@ -146,8 +152,51 @@ if __name__=='__main__':
     carrera = get_carrera(page)
     data = get_student_data(get_malla(page,rut))[2]
     ramos = ramos(data)
+    index = 0
 
-    print('\n'.join(map(str, ramos)))
+    ramos_aprobados = []
+    ramos_convalidados = []
+    ramos_no_aprobados = []
+    for i in range(len(ramos)):
+        aprobado = ramos[i].find('["Aprobada"]')
+        if aprobado != -1:
+
+            ramos_aprobados.append(ramos[i])
+        else:
+            ramos_no_aprobados.append(ramos[i])
+
+    print("\n aprobados")
+    print('\n'.join(map(str, ramos_aprobados)))
+    print("-------------------------------")
+
+    for i in range(len(ramos)):
+
+        convalidado = ramos[i].find('["Convalidada"]')
+        if convalidado != -1:
+            ramos_convalidados.append(ramos[i])
+
+    print("\n convalidados")
+    print('\n'.join(map(str, ramos_convalidados)))
+    print("-------------------------------")
+
+    rm_no_index = []
+
+    for i in range(len(ramos_no_aprobados)):
+        no_aprobados = ramos[i].find('["Convalidada"]')
+        if no_aprobados != -1:
+            rm_no_index.append(ramos[i])
+
+    for i in range(len(rm_no_index)):
+        temp = rm_no_index[i]
+        ramos_no_aprobados.remove(temp)
+
+    print("\n No aprobados")
+    print('\n'.join(map(str, ramos_no_aprobados)))
+    print("-------------------------------")
+
+    # print('\n'.join(map(str,ramos)))
+
+
 
     # if carrera == []:
         # print("\n [!] Almuno no regular en Duoc UC [!] \n")
@@ -160,7 +209,7 @@ if __name__=='__main__':
 
         # print("\n [*] {} [*] \n ".format(carrera)) # Carrera
 
-        # print('\n'.join(map(str,ramos))) 
+        # print('\n'.join(map(str,ramos)))
 
 
 
