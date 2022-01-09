@@ -11,4 +11,12 @@ en la plataforma.
 sientete libre de hacer modificaciones al script, yo sé que lo puedes hacer mejor de lo que yo lo hice.
 
 
-# MARCOZSH
+# USO
+
+## Windows
+### py get-ramos.py 'rut sin dígito verificador'
+### ej: py get-ramos.py 21284092
+
+## Linux
+### python3 get-ramos.py 'rut sin dígito verificador'
+### ej: python3 get-ramos.py 21284092
