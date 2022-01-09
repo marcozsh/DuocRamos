@@ -144,72 +144,62 @@ def ramos(data): # <- obtiene lo ramos del estudiante
 
     return ramos
 
-
-if __name__=='__main__':
-
-    rut = sys.argv[1]
-    page = get_pag(rut)[0]
-    carrera = get_carrera(page)
-    data = get_student_data(get_malla(page,rut))[2]
-    ramos = ramos(data)
-    index = 0
+def sep_ramos(ramos):
 
     ramos_aprobados = []
     ramos_convalidados = []
-    ramos_no_aprobados = []
-    for i in range(len(ramos)):
+    ramos_no_aprobados = ramos
+
+    for i in range(len(ramos)): # <- Obtiene los ramos aprobados
         aprobado = ramos[i].find('["Aprobada"]')
         if aprobado != -1:
-
             ramos_aprobados.append(ramos[i])
-        else:
-            ramos_no_aprobados.append(ramos[i])
 
-    print("\n aprobados")
+    print("\n [*] Aprobados [*] \n")
     print('\n'.join(map(str, ramos_aprobados)))
     print("-------------------------------")
 
-    for i in range(len(ramos)):
-
+    for i in range(len(ramos)): # <- Obtiene los ramos convalidados
         convalidado = ramos[i].find('["Convalidada"]')
         if convalidado != -1:
             ramos_convalidados.append(ramos[i])
 
-    print("\n convalidados")
+    print("\n [*] Convalidados [*] \n")
     print('\n'.join(map(str, ramos_convalidados)))
     print("-------------------------------")
 
-    rm_no_index = []
+    for i in range(len(ramos_aprobados)): # Quita los ramos aprobados de la lista "ramos_no_aprobados"
+        no_temp = ramos_aprobados[i]
+        ramos_no_aprobados.remove(no_temp)
 
-    for i in range(len(ramos_no_aprobados)):
-        no_aprobados = ramos[i].find('["Convalidada"]')
-        if no_aprobados != -1:
-            rm_no_index.append(ramos[i])
+    for i in range(len(ramos_convalidados)): # Quita los ramos convalidados de la lista "ramos_no_aprobados"
+        conv_temp = ramos_convalidados[i]
+        ramos_no_aprobados.remove(conv_temp)
 
-    for i in range(len(rm_no_index)):
-        temp = rm_no_index[i]
-        ramos_no_aprobados.remove(temp)
-
-    print("\n No aprobados")
+    print("\n [*] No Aprobados [*] \n")
     print('\n'.join(map(str, ramos_no_aprobados)))
     print("-------------------------------")
 
-    # print('\n'.join(map(str,ramos)))
+if __name__=='__main__':
 
+    rut = sys.argv[1]
+    index = 0
+    page = get_pag(rut)[0]
+    carrera = get_carrera(page)
+    data = get_student_data(get_malla(page,rut))[2]
+    ramos = ramos(data)
 
+    if carrera == []:
+        print("\n [!] Almuno no regular en Duoc UC [!] \n")
+    else:
+        carrera = ' '.join(map(str, carrera))
 
-    # if carrera == []:
-        # print("\n [!] Almuno no regular en Duoc UC [!] \n")
-    # else:
-        # carrera = ' '.join(map(str, carrera))
+        print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[0])) # Name
 
-        # print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[0])) # Name
+        print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[1])) # Rut
 
-        # print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[1])) # Rut
+        print("\n [*] {} [*] \n ".format(carrera)) # Carrera
 
-        # print("\n [*] {} [*] \n ".format(carrera)) # Carrera
+        print("\n [!] Ramos del estudiante [!]")
 
-        # print('\n'.join(map(str,ramos)))
-
-
-
+        sep_ramos(ramos)
