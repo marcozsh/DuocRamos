@@ -183,7 +183,6 @@ def sep_ramos(ramos):
 if __name__=='__main__':
 
     rut = sys.argv[1]
-    index = 0
     page = get_pag(rut)[0]
     carrera = get_carrera(page)
     data = get_student_data(get_malla(page,rut))[2]
@@ -193,13 +192,9 @@ if __name__=='__main__':
         print("\n [!] Almuno no regular en Duoc UC [!] \n")
     else:
         carrera = ' '.join(map(str, carrera))
-
         print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[0])) # Name
-
         print("\n [*] {} [*] \n".format(get_student_data(get_malla(page, rut))[1])) # Rut
-
         print("\n [*] {} [*] \n ".format(carrera)) # Carrera
 
         print("\n [!] Ramos del estudiante [!]")
-
         sep_ramos(ramos)
